@@ -715,6 +715,8 @@ height: auto;
 @media only screen 
 and (max-width : 1024px) 
 {
+	.dropdown2 {
+    padding-right: 20px;}
 	.form-1 {
     padding-bottom: 30%;
 }
@@ -856,6 +858,10 @@ and (max-width : 1024px)  {
 	padding: 0 0% 10px 0%;
 
 }
+.navigation{
+	margin-top: 0;
+}
+
 .box1 h1 {
     font-size: 14px;
     color: #ffffff;
