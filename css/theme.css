@@ -1,0 +1,130 @@
+/*common styles*/
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+p,h1,h2,h3,h4,h5,h6,ul,li{
+padding: 0;
+margin: 0;
+}
+.primary{
+	font-size: 16px!important;
+	font-weight: bold;
+	color: #b01f23!important;
+}
+.p-stat{
+	position: static;
+}
+.b-right{
+	border-right:1px solid #b01f23; 
+}
+.b-left{
+	border-left:1px solid #b01f23; 
+}
+header{
+	background: #b01f23;
+}
+.p-rel{
+	position: relative;
+}
+.p-abs{
+	position: absolute;
+}
+.v-t{
+	vertical-align: top;
+
+}
+.p-l-5{
+	padding-left: 5px;
+}
+.v-m{
+	vertical-align: middle;
+}
+.d-tab-cell{
+	display: table-cell;
+}
+.m-t-10{
+	margin-top: 10px;
+}
+.m-t-20{
+	margin-top: 20px;
+
+}
+.p-0{
+	padding: 0;
+}
+.p-l-0{
+	padding-left: 0;
+}
+.p-r-0{
+	padding-right: 0;
+}
+.grey{
+	color: #9b9b9b!important;
+}
+.p-b-10{
+	padding-bottom: 10px;
+}
+.p-b-30{
+	padding-bottom: 30px;
+}
+.p-t-30{
+	padding-top: 30px;
+}
+.p-t-10{
+	padding-top: 10px;
+}
+.p-t-20{
+	padding-top: 20px;
+}
+.p-b-20{
+	padding-bottom: 20px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+figure img{
+	width: 100%;
+}
+.border-bottom{
+	
+    -webkit-border-image: -webkit-linear-gradient(right, #a90a0e 20%,#000000 3%) 0 0 100% 0/0 0 8px 0 stretch;
+    -moz-border-image: -moz-linear-gradient(right, #a90a0e 20%,#000000 3%) 0 0 100% 0/0 0 8px 0 stretch;
+}
+.bottom-video:before{
+	position: absolute;
+    width: 98%;
+    top: -25px;
+    height: 30px;
+    content: '';
+    -webkit-border-image: -webkit-linear-gradient(right, #a90a0e 20%,#000000 3%) 0 0 100% 0/0 0 8px 0 stretch;
+    -moz-border-image: -moz-linear-gradient(right, #a90a0e 20%,#000000 3%) 0 0 100% 0/0 0 8px 0 stretch;
+}
+.border-new:before{
+
+	position: absolute;
+    width: 94%;
+    top: -25px;
+    height: 30px;
+    content: '';
+    -webkit-border-image: -webkit-linear-gradient(right, #a90a0e 20%,#000000 3%) 0 0 100% 0/0 0 8px 0 stretch;
+    -moz-border-image: -moz-linear-gradient(right, #a90a0e 20%,#000000 3%) 0 0 100% 0/0 0 8px 0 stretch;
+
+}
+input[type=checkbox], input[type=radio] {
+    vertical-align: middle;
+}
+.des-none{
+	display: none!important;
+}
